@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
 import clsx from "clsx";
+import { motion } from "framer-motion";
+import { useState } from "react";
 import { show1Artists, show2Artists } from "./constants";
 
 const fadeSlide = {
@@ -8,7 +8,7 @@ const fadeSlide = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
 };
 
-export default function FeaturedPerformances() {
+export default function Lineup() {
   return (
     <section className={container}>
       <motion.div
@@ -17,10 +17,10 @@ export default function FeaturedPerformances() {
         variants={fadeSlide}
         className="mb-16 mt-8 text-center"
       >
-        <h1 className="text-4xl font-bold tracking-tight">
+        <h1 className="lg:text-6xl text-4xl font-bold tracking-tight">
           Featured Performances
         </h1>
-        <p className="text-lg text-gray-500 mt-2">Performer Lineup</p>
+        <p className="lg:text-2xl text-lg text-red/80 tracking-widest uppercase mt-2">Performer Lineup</p>
       </motion.div>
 
       {/* Show One */}
@@ -94,7 +94,7 @@ function PerformerCard({ performer }) {
 
 // --- Styles ---
 const container = clsx("max-w-6xl mx-auto px-6 pb-20 text-gray-900");
-const showTitle = clsx("text-2xl font-semibold mb-10 bg-red py-4 text-white -rotate-[2deg] text-center tracking-wide");
+const showTitle = clsx("text-2xl px-4 lg:px-0 font-semibold mb-10 bg-red py-4 text-white -rotate-[2deg] text-center tracking-wide");
 const performerGrid = clsx("grid gap-6 sm:grid-cols-2 md:grid-cols-3");
 const readState = clsx("ml-1 text-red uppercase font-bold hover:text-red/80 transition-colors text-[11px] underline")
 const performerCard = clsx(

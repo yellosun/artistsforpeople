@@ -1,6 +1,6 @@
 import { useState } from "react";
 import clsx from "clsx";
-import { Tabs } from "./components";
+import { Tabs, Footer } from "./components";
 import logo from "./assets/artists4-logo.png";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./routes";
@@ -35,6 +35,7 @@ export default function ArtistsForProple() {
           <RouterProvider router={router} />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
