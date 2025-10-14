@@ -128,14 +128,12 @@ const contributors = [
     name: <img src={matchLogo} alt="match Logo" className="w-full" />,
     color: "bg-[#fe721c]",
   },
-  { name: "Ellie Chen", color: "bg-[lightblue]/80" },
-  { name: "Carlos", color: "bg-[brown]/50" },
+  { name: "Caroline Duble", color: "bg-[brown]/50" },
   { name: "David", color: "bg-[blue]/10" },
-  { name: "Griffin", color: "bg-[purple]/20" },
-  { name: "Amy Lam", color: "bg-[green]/80" },
-  { name: "Persi Mey", color: "bg-[yellow]/80" },
   { name: "Mollie Miller", color: "bg-[purple]/80" },
+  { name: "Ellie Chen", color: "bg-[lightblue]/80" },
+  { name: "Persi Mey", color: "bg-[yellow]/80" },
   { name: "Eduardo Zavala", color: "bg-[green]/30" },
   { name: "Violet Moon", color: "bg-[hotpink]/80" },
-  { name: "...you?", color: "border border-dashed border-black" },
+  // add all performing artists
 ];
