@@ -24,7 +24,16 @@ export default function LandingPage() {
           <p className="text-lg lg:text-2xl lg:mb-10 mb-6">
             Supporting Gaza & Houston Immigrant Communities
           </p>
-          <div className="text-gray-800 text-sm">
+          <a
+              href={faLink}
+              target="_blank"
+              rel="noreferrer"
+              disabled
+              className="px-8 italic py-4 text-white bg-red/30 mb-10 rounded-lg lg:text-2xl shadow-lg hover:opacity-90 transition"
+            >
+              Tickets Coming Soon!
+            </a>
+          <div className="text-gray-800 text-sm mt-4">
             <span className="italic lg:text-lg font-semibold">
               Artists For People
             </span>{" "}
@@ -36,22 +45,14 @@ export default function LandingPage() {
             detentions. Our mission is to use art as a tool for collective
             action, resistance, and resource redistribution.
           </div>
-          <div className="mt-10">
+          <div className="mt-16">
             <a
               href={faLink}
               target="_blank"
               rel="noreferrer"
-              className="hidden lg:flex px-8 py-4 text-white font-bold bg-red text-2xl rounded-lg shadow-lg hover:opacity-90 transition"
+              className="px-8 py-4 lg:text-2xl text-white font-bold bg-red rounded-lg shadow-lg hover:opacity-90 transition"
             >
-              Make A (Tax-Deductible) Donation Now
-            </a>
-            <a
-              href={faLink}
-              target="_blank"
-              rel="noreferrer"
-              className="px-8 py-4 lg:hidden text-white font-bold bg-red rounded-lg shadow-lg hover:opacity-90 transition"
-            >
-              Donation Now
+              Donate Now
             </a>
           </div>
         </div>
@@ -88,15 +89,15 @@ export default function LandingPage() {
         variants={fadeSlide}
         className="mb-20 text-center border-t border-gray-300 pt-20"
       >
-        <h2 className="text-6xl font-bold mb-8">Volunteer</h2>
-        <p className="text-gray-700 text-lg mb-10">
+        <h2 className="lg:text-6xl text-4xl font-bold mb-8">Volunteer</h2>
+        <p className="text-gray-700 lg:text-lg mb-10">
           You can still get involved! We’re looking for volunteers to help with
           technical support, community organizing, livestreaming, or general
           event assistance.
         </p>
         <a
           href="mailto:violetdanse@gmail.com"
-          className="px-8 text-xl py-4 bg-blue-600 text-white rounded-lg font-bold italic shadow hover:opacity-90 transition"
+          className="px-8 lg:text-xl py-4 bg-blue-600 text-white rounded-lg font-bold italic shadow hover:opacity-90 transition"
         >
           Contact to Volunteer
         </a>
@@ -140,7 +141,7 @@ export default function LandingPage() {
             className="rounded-lg shadow-md w-full h-auto"
           />
         </div>
-        <div className="lg:w-1/2 w-full text-gray-800">
+        <div className="lg:w-1/2 w-full text-center text-sm lg:text-lg lg:text-left text-gray-800">
           <span className="font-bold">Hi, I'm Violet Moon (they/them).</span>{" "}
           This project extends my arts advocacy and activism in Houston to a
           larger global community. For any questions about the concert,
