@@ -76,7 +76,7 @@ function PerformerCard({ performer }) {
         alt={performer.name}
         className={performerImg}
       />
-      <h3 className=" font-bold">{performer.name}</h3>
+      <h3 className="font-bold">{performer.name}</h3>
       <p className={bio}>
         {displayBio}
         {isLongBio && (
