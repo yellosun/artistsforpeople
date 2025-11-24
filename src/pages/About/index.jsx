@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { motion } from "framer-motion";
-import { faLink, fadeSlide, contributors } from "./constants";
+import { faLink, matchLink, fadeSlide, contributors } from "./constants";
 
 import violet from "../../assets/violet.jpg";
 import firstDraftPoster from "../../assets/poster.png";
@@ -24,16 +24,7 @@ export default function LandingPage() {
           <p className="text-lg lg:text-2xl lg:mb-10 mb-6">
             Supporting Gaza & Houston Immigrant Communities
           </p>
-          <a
-              href={faLink}
-              target="_blank"
-              rel="noreferrer"
-              disabled
-              className="px-8 italic py-4 text-white bg-red/30 mb-10 rounded-lg lg:text-2xl shadow-lg hover:opacity-90 transition"
-            >
-              Tickets Coming Soon!
-            </a>
-          <div className="text-gray-800 text-sm mt-4">
+          <div className="text-gray-800 mb-8 ">
             <span className="italic lg:text-lg font-semibold">
               Artists For People
             </span>{" "}
@@ -45,12 +36,36 @@ export default function LandingPage() {
             detentions. Our mission is to use art as a tool for collective
             action, resistance, and resource redistribution.
           </div>
-          <div className="mt-16">
+          <p className="text-4xl font-bold pb-4 border-black border-b-2 mb-8">TWO SHOWS</p>
+          <p className="text-2xl font-semibold pb-4">
+            MONDAY, DECEMBER 8 & TUESDAY, DECEMBER 9
+          </p>
+          <p className="text-xl pb-4 ">7:30 PM Curtain</p>{" "}
+          <p className="text-xl font-semibold pb-4">Matchbox 1</p>
+          <p className="text-xl pb-4">
+            RUNTIME:<br/> 75 minutes with no intermission
+          </p>
+          <p className="text-xl pb-4"> TICKETS:<br/> General Admission Seating</p>
+          <p className="text-xl pb-4 font-semibold "> Pay-What-You-Can<br/> $20 to $40</p>
+          <p className="text-xl italic pb-8">
+            Please note that each ticket is subjust to a $5 service fee at
+            checkout.
+          </p>
+          <div className="mt-8">
+            <a
+              href={matchLink}
+              target="_blank"
+              rel="noreferrer"
+              className="px-8  mr-4 py-4 italic text-white font-semibold bg-red mb-10 rounded-lg lg:text-2xl shadow-lg hover:opacity-90 transition"
+            >
+              Buy Your Ticket!
+            </a>
+
             <a
               href={faLink}
               target="_blank"
               rel="noreferrer"
-              className="px-8 py-4 lg:text-2xl text-white font-bold bg-red rounded-lg shadow-lg hover:opacity-90 transition"
+              className="px-8 py-4 lg:text-2xl text-white font-bold bg-black rounded-lg shadow-lg hover:opacity-90 transition"
             >
               Donate Now
             </a>

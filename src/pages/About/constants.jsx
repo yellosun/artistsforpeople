@@ -33,6 +33,8 @@ const faLogo = (
 export const faLink =
   "https://fundraising.fracturedatlas.org/global-local-community-benefit-concert";
 
+export const matchLink = "http://matchouston.org/events/2025/artists-people"
+
 const colors = [
   "bg-red/10",
   "bg-red/20",
@@ -47,7 +49,10 @@ const colors = [
 export const contributors = [
   { name: "Violet Moon", color: "bg-red text-white" },
   { name: "Caroline Duble", color: "bg-red text-white" },
-  { name: "Stacy Jones", color: "bg-red text-white" },
+  { name: "Brian Buck", color: "bg-red text-white" },
+  { name: "Eduardo Zavala", color: "bg-red text-white" },
+  { name: "Daisy Su", color: "bg-red text-white" },
+  { name: "Liz & Em", color: "bg-red text-white" },
   { name: faLogo, color: "bg-[#573cc1] text-white" },
   {
     name: <img src={matchLogo} alt="MATCH Logo" className="w-full p-6" />,

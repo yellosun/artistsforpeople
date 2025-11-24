@@ -6,7 +6,6 @@ import saravan from "../../assets/artists/saravan.jpg";
 import chrisbel from "../../assets/artists/chrisbel.jpg";
 import losgatos from "../../assets/artists/losgatos.jpg";
 import terraformed from "../../assets/artists/terraformed.jpg";
-import rootcause from "../../assets/artists/rootcause.jpg";
 
 // PROGRAM B
 import somosis from "../../assets/artists/somosis.jpg";
@@ -23,11 +22,6 @@ export const show1Artists = [
     name: "Andrea “La Flor” González",
     image: andreag,
     bio: "Andrea La Flor González is a Flamenco artist, choreographer, and instructor based in Houston, Texas. A San Antonio native, she brings over 30 years of performance experience across Flamenco, ballet folklórico de México, ballet, jazz, tap, modern, Afrikan, and contemporary dance. For the past 15 years, her focus has been Flamenco. Andrea has performed on stages and tablaos across the United States working with local and international artists. Andrea began her professional career with Flamenco Fuego de San Antonio and studied Flamenco at the University of New Mexico, performing with Gbotsui Afrikan Dance Troupe and Blythe Eden Dance Company. Since 2021, she has toured nationally with Solero Flamenco. Most recently, Andrea performed alongside Flamenco Vivo Carlota Santana company dancers and musicians at the first stop of the 2025 tour season in Galveston, TX on The 1894 Grand Opera House stage. In 2024, Andrea won the grand prize at Flamenco Vivo Carlota Santana’s Flamenco Certamen USA, earning a residency at Amor de Dios in Spain, attendance at the 34º Certamen de Coreografía de Danza Española y Flamenco, and a performance at Madrid’s renowned Tablao Las Carboneras. Her recent choreographic works include La Llorona – Soleá por Bulerías (Barnstorm Dance Fest 2025), la resistencia (Mind the Gap 35), and a variation of La Llorona (Texas Folklife Apprenticeship Program, 2025). Andrea continues to explore and share the depth of Flamenco through performance, education, and cross-cultural collaboration.",
-  },
-  {
-    name: "Andrea (Root Cause)",
-    image: rootcause,
-    bio: "@root_cause_htx",
   },
   {
     name: "Chrisbel",

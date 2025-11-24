@@ -1,4 +1,3 @@
-export { default as Landing } from "./Landing";
 export { default as About } from "./About";
 export { default as Lineup } from "./Lineup";
 export { default as Contact } from "./Contact";
